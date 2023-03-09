@@ -1,0 +1,53 @@
+.cardservices{
+    width: 15rem;
+}
+
+.cardimg{
+   width: 7rem;
+   margin-left: 2rem;
+}
+
+
+.hovercard:hover{
+    background-color: blue !important;
+    height: 16.5rem !important;
+    border-bottom: none !important;
+    box-shadow: 0px 0px 0px transparent !important;
+}
+
+.imag:hover{
+    background-color: blue;
+}
+
+.anchor{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.pragraph{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.button{
+    background-color: #007FF4;
+}
+
+.imagespng{
+    position: relative !important;
+    float: top;
+    margin-top: -7rem;
+    width: 10vw;
+    height: 20vh;
+}
+
+.middium{
+    margin-left: 18rem !important;
+    text-align: center !important;
+   justify-content: end !important;
+}
+.middle1{
+    width: 14rem;
+    height: 10rem;
+}
+
