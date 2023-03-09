@@ -1,0 +1,76 @@
+
+
+.outer {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative !important;
+    background-color: #FFFFFF;
+    margin: 10px;
+    cursor:pointer;
+  }
+  
+
+  .inner {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    background-color: #f0fafd;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease-out;
+  }
+
+ 
+  .box-model{
+    position: absolute !important;
+    z-index: 1;
+    /* background-color: transparent !important; */
+    width: 69rem!important;
+    height: 14rem!important;
+  }
+.subclass{
+    float: right !important;
+    z-index: 0.1;
+    background-color: transparent 1px salmon ;
+}
+
+.rounded1{
+    width: 25rem !important;
+}
+.logo1{
+    position: relative;
+    width: 3.7vw;
+    height: 7.3vh;
+    margin-top: -10px;
+    /* display: block; */
+    /* margin-left: 7rem !important; */
+    float: right !important;
+    margin-left: 3% !important;
+}
+
+.boxline{
+    font-size: 12px !important;
+}
+
+.mycustom input[type=text] {
+  border: none;
+  width: 50%;
+  /* padding-right: 123px; */
+  }
+  .mycustom .input-group-prepend {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  bottom: 4px;z-index:9;
+  }
+
+  .setdata{
+    margin-top: -3.4%;
+    float: right !important;
+  }
+ 
+
+
