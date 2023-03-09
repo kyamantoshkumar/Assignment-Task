@@ -1,0 +1,59 @@
+.icon{
+    float: right;
+    margin-top: -3.8%;
+}
+
+.hrline{
+    background-color: aliceblue;
+  width: 10%;
+}
+
+.iconimg{
+    width: 9vw;
+    height: 13vh;
+  }
+
+.card-icon{
+    width: 2vw;
+    height: 5vh;
+    float: right !important;
+}
+.card-body{
+    background-color: #1b1b1b;
+}
+
+.card-text{
+    color: #E5DFD9;
+}
+.curricon{
+    float: left !important;
+}
+.dele{
+    font-size: 12px !important;
+}
+.currency{
+    font-size: 14px !important;;
+    height: 1vh !important;
+}
+.font{
+    margin-top: 0.7rem !important;
+    float: left !important;
+    font-size: 10px !important;
+    color: green;
+}
+
+.cardrnd{
+  border-bottom-right-radius: 50% !important;
+}
+
+.icontop{
+  font-size: 20px !important;
+  position: absolute;
+  margin: right !important;  
+}
+
+.icontop{
+    float: left !important;
+
+}
+
