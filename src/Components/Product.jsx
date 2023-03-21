@@ -110,7 +110,7 @@ const Product = () => {
              <p className="icontop text-end"><i className="px-3 fa-regular fa-bookmark"></i></p>
                 <img src={require("../assets/images/Brown Metro.png")} className="card-img-top" alt="" />
                 <div className="card-body">
-                  <div className="card-text">
+                  <div className="card-text1">
                   <h6>The Brown Metro Movers</h6>
                   <div className="px-2">
                   <p className="curricon "><i className="fa-solid fa-indian-rupee-sign currency"></i><strong className="px-1">4899</strong><del className="dele"> 8999</del></p> <p className="font px-1">(50% off)</p>
@@ -124,7 +124,7 @@ const Product = () => {
                <p className="icontop text-end"><i className="px-3 fa-regular fa-bookmark"></i></p>
                 <img src={require("../assets/images/Black Metro.png")} className="card-img-top" alt="..." />
                  <div className="card-body">
-                  <div className="card-text">
+                  <div className="card-text1">
                   <h6>The Metro Movers Black</h6>
                   <div className="px-2">
                   <p className="curricon "><i className="fa-solid fa-indian-rupee-sign currency"></i><strong className="px-1">4899</strong><del className="dele"> 8999</del></p> <p className="font px-1">(50% off)</p>
@@ -138,7 +138,7 @@ const Product = () => {
               <p className="icontop text-end"><i className="px-3 fa-regular fa-bookmark"></i></p>
                 <img src={require("../assets/images/Metro Mover.png")} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <div className="card-text">
+                  <div className="card-text1">
                   <h6>The Metro Movers Black</h6>
                   <div className="px-2">
                   <p className="curricon "><i className="fa-solid fa-indian-rupee-sign currency"></i><strong className="px-1">4899</strong><del className="dele"> 8999</del></p> <p className="font px-1">(50% off)</p>
@@ -152,7 +152,7 @@ const Product = () => {
               <p className="icontop text-end"><i className="px-3 fa-regular fa-bookmark"></i></p>
                 <img src={require("../assets/images/Gray Metro.png")} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <div className="card-text">
+                  <div className="card-text1">
                   <h6>The Metro Movers Black</h6>
                   <div className="px-2">
                   <p className="curricon "><i className="fa-solid fa-indian-rupee-sign currency"></i><strong className="px-1">4899</strong><del className="dele"> 8999</del></p> <p className="font px-1">(50% off)</p>
@@ -166,8 +166,8 @@ const Product = () => {
               <p className="icontop text-end"><i className="px-3 fa-regular fa-bookmark"></i></p>
                 <img src={require("../assets/images/Brown Metro.png")} className="card-img-top" alt="..." />
               
-                <div className="card-body">
-                  <div className="card-text">
+                <div className="card-body1">
+                  <div className="card-text1">
                   <h6>The Brown Metro Movers</h6>
                   <div className="px-2">
                   <p className="curricon "><i className="fa-solid fa-indian-rupee-sign currency"></i><strong className="px-1">4899</strong><del className="dele"> 8999</del></p> <p className="font px-1">(50% off)</p>
@@ -181,7 +181,7 @@ const Product = () => {
               <p className="icontop text-end"><i className="px-3 fa-regular fa-bookmark"></i></p>
                 <img src={require("../assets/images/Black Metro.png")} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <div className="card-text">
+                  <div className="card-text1">
                   <h6>The Metro Movers Black</h6>
                   <div className="px-2">
                   <p className="curricon "><i className="fa-solid fa-indian-rupee-sign currency"></i><strong className="px-1">4899</strong><del className="dele"> 8999</del></p> <p className="font px-1">(50% off)</p>
@@ -195,7 +195,7 @@ const Product = () => {
               <p className="icontop text-end"><i className="px-3 fa-regular fa-bookmark"></i></p>
                 <img src={require("../assets/images/Metro Mover.png")} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <div className="card-text">
+                  <div className="card-text1">
                   <h6>The Metro Movers Black</h6>
                   <div className="px-2">
                   <p className="curricon "><i className="fa-solid fa-indian-rupee-sign currency"></i><strong className="px-1">4899</strong><del className="dele"> 8999</del></p> <p className="font px-1">(50% off)</p>
@@ -209,7 +209,7 @@ const Product = () => {
               <p className="icontop text-end"><i className="px-3 fa-regular fa-bookmark"></i></p>
                 <img src={require("../assets/images/Gray Metro.png")} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <div className="card-text">
+                  <div className="card-text1">
                   <h6>The Metro Movers Black</h6>
                   <div className="px-2">
                   <p className="curricon "><i className="fa-solid fa-indian-rupee-sign currency"></i><strong className="px-1">4899</strong><del className="dele"> 8999</del></p> <p className="font px-1">(50% off)</p>
