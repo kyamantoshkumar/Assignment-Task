@@ -14,96 +14,51 @@ const Speaciliest = () => {
               </p>
             </div>
             <div className="row">
-              <div className="col-lg-12 col-md-6 col-sm-12 px-5 py-3">
-                <div className="row ">
-                  <div className="col-md-3 col-sm-12">
-                    <div
-                      className="card shadow mb-5 bg-body-tertiary rounded"
-                      style={{
-                        width: "14rem",
-                        height: "20rem",
-                        background: "#AED3E2",
-                      }}
-                    >
-                      <h2
-                        style={{ width: "8vh", height: "40vh" }}
-                        className=" card-img-top "
-                      >
-                        {" "}
-                      </h2>
-                      <div className="bg-light card-body py-2 shadow p-3 bg-body-tertiary">
-                        <h4>Dr. Awaatif Al</h4>
-                        <p className="card-text">Dental Care</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-3 col-sm-12">
-                    <div
-                      className="card shadow mb-5 bg-body-tertiary rounded"
-                      style={{
-                        width: "14rem",
-                        height: "20rem",
-                        background: "#AED3E2",
-                      }}
-                    >
-                      <h2
-                        style={{ width: "8vh", height: "40vh" }}
-                        className=" card-img-top py-5"
-                      >
-                        {" "}
-                      </h2>
 
-                      <div className="bg-light card-body py-2 shadow p-3 bg-body-tertiary">
-                        <h5>Dr. Filipa Gaspar</h5>
-                        <p className="card-text">Cardiology</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="col-md-3 col-sm-12">
-                    <div
-                      className="card shadow mb-5 bg-body-tertiary rounded"
-                      style={{
-                        width: "14rem",
-                        height: "20rem",
-                        background: "#AED3E2",
-                      }}
-                    >
-                      <h2
-                        style={{ width: "8vh", height: "40vh" }}
-                        className=" card-img-top py-5"
-                      >
-                        {" "}
-                      </h2>
-                      <div className="bg-light card-body py-2 shadow p-3 bg-body-tertiary">
-                        <h5>Dr. Sukhmeet Gorae</h5>
-                        <p className="card-text">Neurological</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="col-md-3 col-sm-12">
-                    <div
-                      className="card shadow mb-5 bg-body-tertiary rounded"
-                      style={{
-                        width: "14rem",
-                        height: "20rem",
-                        background: "#AED3E2",
-                      }}
-                    >
-                      <h2
-                        style={{ width: "8vh", height: "40vh" }}
-                        className=" card-img-top py-5"
-                      >
-                        {" "}
-                      </h2>
-                      <div className="bg-light card-body py-2 shadow p-3 bg-body-tertiary">
-                        <h5>Dr. Siri Jakobsson</h5>
-                        <p className="card-text">Prediatrics</p>
-                      </div>
-                    </div>
+            <div className="row rows-cols-md-3 g-2 justify-content-center">
+              <div className="cols">
+                <div className="card rounded" style={{width:'15rem', }}>
+                  <h4 className="shape " style={{height:'18rem', background: "#AED3E2"}}> </h4>
+                  <div className="card-body" style={{width:'auto', height:'5rem'}} >
+                  <h5 className="card-title">Dr. Awaatif Al</h5>
+                  <p className="card-text">Dental Care</p>
                   </div>
                 </div>
+              </div>
+
+              <div className="col">
+                <div className="card rounded" style={{width:'15rem' }}>
+                <h4 className="shape " style={{height:'18rem', background: "#AED3E2"}}> </h4>
+                  <div className="card-body" style={{width:'auto', height:'5rem'}}>
+                  <h5 className="card-title">Dr. Sukhmeet Gorae</h5>
+                  <p className="card-text">Neurological</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col">
+                <div className="card" style={{width:'15rem', }}>
+                <h4 className="shape " style={{height:'18rem', background: "#AED3E2"}}> </h4>
+                  <div className="card-body" style={{width:'auto', height:'5rem'}}>
+                  <h5 className="card-title">Dr. Filipa Gaspar</h5>
+                  <p className="card-text">Cardiology</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col">
+                <div className="card rounded" style={{width:'15rem', }}>
+                  <h4 className="shape" style={{height:'18rem', background: "#AED3E2"}}> </h4>
+                  <div className="card-body" style={{width:'auto', height:'5rem'}}>
+                  <h5 className="card-title">Dr. Siri Jakobsson</h5>
+                  <p className="card-text">Prediatrics</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+              <div className="col-lg-12 col-md-auto col-sm-12 px-5 py-3">
               </div>
             </div>
             <div className="col-lg-12 col-md-6 col-sm-12 px-5 mt-5">
@@ -113,11 +68,12 @@ const Speaciliest = () => {
                 </div>
                 <div className="row justify-content-around">
                   <div className="col-md-6 col-sm-12">
-                    <div className="shadow bg-light rounded">
-                      <p className="set">
-                        <h2 className="logo1 bg-primary text-light rounded-5 text-center py-2 ">
+                  <h2 className=" bg-primary logo1 text-light rounded-5 text-center py-2 ">
                           “
                         </h2>
+                    <div className="shadow bg-light rounded">
+                      <p className="set logo1">
+                       
                       </p>
                       <p className="py-4 px-4">
                         I wanted to thanks everyone at this facility for the
@@ -140,13 +96,15 @@ const Speaciliest = () => {
                   </div>
 
                   {/* New */}
+                  
                   <div className=" col-md-6 col-sm-12">
-                    <div className="shadow bg-light rounded">
-                      <p className=" justify-content-end">
-                        <h2 className="bg-primary logo1 text-light rounded-5 text-center py-2 ">
+                    <p className="NewLogo1 text-center float-left logo1"> 
+                    <h2 className="bg-primary text-light rounded-5  py-2 ">
                           “
                         </h2>
-                      </p>
+                    </p>
+                    <div className="shadow bg-light rounded">
+                      
                       <p className="py-4 px-4">
                         I wanted to thanks everyone at this facility for the
                         quality of care and compassion they showed during my
@@ -169,9 +127,6 @@ const Speaciliest = () => {
               </div>
             </div>
 
-            {/* <div className="box-level">
-              <div className="box-menu"></div>
-            </div> */}
             <div className="row py-5 my-5">
               <div className="col-md-12 col-sm-12 d-block px-5 justify-content-end d-block" style={{marginBottom:'3%'}}> 
                 <div className="outer subclass shadow p-3 mb-3 bg-body-tertiary ">
@@ -182,15 +137,12 @@ const Speaciliest = () => {
                     <h5 className="text-center text-light fs-3">
                       Subscribe to Newsletter
                     </h5>
-                    {/*bhawna@guise.aria */}
+
                     <p className="text-center text-light boxline">
                       We have a wide experience in experience design and
                       strategy,
                     </p>
-                    {/* <div className="text-center px-5">
-                    <input className="bg-light py-2 rounded rounded1 text-start border-transparent shadow p-3 mb-3 bg-body-tertiary" type="email" name="email" placeholder="Enter your email address" />
-                    <button className="bg-primary text-light rounded-4 px-3 btn send" type="btn">Send</button>
-                  </div> */}
+
                     <div className="col-md-6 col-lg-12 col-sm-12 text-center px-5">
                     <div className="input-group mycustom px-5">
                       <input

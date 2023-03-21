@@ -4,10 +4,14 @@ import axios from 'axios';
 
 
 const ECommerce = () => {
+
     useEffect(() => {
-    axios.get('https://api.tjori.com/api/v7filters/na/women-all-products/?f_page=1&format=json')
+    // axios.get('https://api.tjori.com/api/v7filters/na/women-all-products/?f_page=1&format=json')
+    
+    axios.get('https://dummyjson.com/post')
        .then(res => console.log(res))
     },[])
+
   return (
     <div className='container'>
         <div>card</div>
@@ -16,3 +20,6 @@ const ECommerce = () => {
 }
 
 export default ECommerce
+
+
+

@@ -13,13 +13,20 @@
     height: 13vh;
   }
 
+ .direction{
+    flex-direction: row !important;
+    display: flex !important;
+ } 
 .card-icon{
     width: 2vw;
     height: 5vh;
     float: right !important;
 }
 .card-body1{
-    background-color: #1b1b1b;
+    background-color: #302f2f;
+    border-bottom: 20px !important;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .card-text1{
@@ -27,6 +34,7 @@
 }
 .curricon{
     float: left !important;
+    
 }
 .dele{
     font-size: 12px !important;
@@ -46,11 +54,43 @@
   border-bottom-right-radius: 50% !important;
 }
 
-.icontop{
-  font-size: 20px !important;
-  position: absolute;
-  margin: right !important;  
-}
+@media (min-width: 768px) { 
+
+    .iconimg{
+        width: 9vw;
+        height: 13vh;
+      }
+    
+     .direction{
+        flex-direction: row !important;
+        display: flex !important;
+        
+     } 
+     
+    .icontop{
+        font-size: 20px !important;
+        position: absolute !important;
+        float: right !important;
+        margin-left: 11.6rem !important;
+      }
+
+    .iconmap:hover{
+        background-color: #817f7f;
+        cursor: pointer;
+    }
+
+ }
+
+@media (min-width: 576px) { 
+  
+    .icontop{
+        font-size: 20px !important;
+        position: absolute !important;
+        float: right !important;
+        margin-left: 11.6rem !important;
+      }
+      
+ }
 
 .icontop{
     float: left !important;

@@ -1,6 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Route, Routes} from "react-router-dom"
 import './App.css';
+import Posts from './Components/dummyAPI';
 import ECommerce from './Components/Ecommerce';
 import Navbar from './Components/Navbar';
 import Home from './Components/Pages/Home';
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/speaciliest" element={<Speaciliest/>} />
         <Route path="/ecom" element={<ECommerce/>}/>
         <Route path='/product' element={<Product/>}/>
+        <Route path='/posts' element={<Posts/>}/>
       </Routes>
      </BrowserRouter>
     </>

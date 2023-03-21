@@ -1,6 +1,6 @@
 
-
 .outer {
+  /* position : fixed !important; */
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -9,9 +9,8 @@
     margin: 10px;
     cursor:pointer;
   }
-  
 
-  .inner {
+.inner {   
     position: absolute;
     width: 70%;
     height: 70%;
@@ -22,15 +21,14 @@
     transform: translate(-50%, -50%);
     transition: all 0.5s ease-out;
   }
-
- 
-  .box-model{
+  
+.box-model{
     position: absolute !important;
     z-index: 1;
-    /* background-color: transparent !important; */
     width: 69rem!important;
     height: 14rem!important;
   }
+ 
 .subclass{
     float: right !important;
     z-index: 0.1;
@@ -40,20 +38,46 @@
 .rounded1{
     width: 25rem !important;
 }
-.logo1{
-    position: relative;
-    width: 3.7vw;
-    height: 7.3vh;
-    margin-top: -10px;
-    /* display: block; */
-    /* margin-left: 7rem !important; */
-    float: right !important;
-    margin-left: 3% !important;
+
+@media (min-width: 768px) {  
+
+  .box-model{
+    position: absolute !important;
+    z-index: 1;
+    /* background-color: transparent !important; */
+    width: 69rem!important;
+    height: 14rem!important;
+  }
+
 }
 
-.boxline{
-    font-size: 12px !important;
+
+@media (min-width: 576px) { 
+
+  .box-model{
+    position: absolute !important;
+    z-index: 1;
+    /* background-color: transparent !important; */
+    width: 69rem!important;
+    height: 14rem!important;
+  }
+
+  .logo1 {
+    position: absolute;
+    width: 3.7vw;
+    height: 7.3vh;
+    margin-left: 20px !important ;
+    margin-top: -10px;
+    /* float: left !important; */
+    justify-content: end ! important;
+    margin-left: 33rem !important;
 }
+
+.card-round {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
 
 .mycustom input[type=text] {
   border: none;
@@ -67,7 +91,41 @@
   bottom: 4px;z-index:9;
   }
 
-  .setdata{
+.card-box{
+   width: 0rem !important;
+   height: 10rem !important;
+   padding-inline: 20px !important;
+}
+
+.card-pad{
+  /* width: 10rem !important; */
+  height: 40px !important;
+}
+
+.shape{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+ }
+
+
+.boxline{
+    font-size: 12px !important;
+}
+
+.mycustom input[type=text] {
+  border: none;
+  width: 50%;
+  /* padding-right: 123px; */
+  }
+.mycustom .input-group-prepend {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  bottom: 4px;z-index:9;
+}
+
+.setdata{
     margin-top: -3.4%;
     float: right !important;
   }

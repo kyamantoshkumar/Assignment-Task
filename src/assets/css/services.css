@@ -7,7 +7,6 @@
    margin-left: 2rem;
 }
 
-
 .hovercard:hover{
     background-color: blue !important;
     height: 16.5rem !important;
@@ -46,6 +45,7 @@
     text-align: center !important;
    justify-content: end !important;
 }
+
 .middle1{
     width: 14rem;
     height: 10rem;

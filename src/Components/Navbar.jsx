@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../assets/css/style.css"
+// import Posts from "./dummyAPI";
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <>
       <div className="container">
@@ -48,20 +49,15 @@ const Navbar = () => {
                     </li>
                     <li className="nav-item">
                     <Link className="nav-link text-primary mx-3" to="/services"> Services</Link>
-                      {/* <a className="nav-link text-primary mx-3" href="/OurServices">
-                        Service
-                      </a> */}
+                     
                     </li>
                     <li className="nav-item">
-                      {/* <a className="nav-link text-primary mx-3" href="/speaciliest">
-                        News
-                      </a> */}
+                  
                       <Link className="nav-link text-primary mx-3" to="/speaciliest">News</Link>
                     </li>
                     <li className="nav-item bg-primary text-light rounded-5">
-                      <a className="nav-link px-5 text-light" href="/">
-                        Contact
-                      </a>
+                     
+                      <Link className="nav-link px-5 text-light" to="/product">Contact</Link>
                     </li>
                   
                   </ul>

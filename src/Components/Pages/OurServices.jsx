@@ -41,6 +41,7 @@ const OurServices = () => {
                  >
 
                   <img
+                   style={{width:'7vw'}}
                     src={require("../../assets/images/Pulmonary.png")}
                     className="card-img-top cardimg imag text-center justify-content-around"
                     alt="..."
@@ -49,7 +50,7 @@ const OurServices = () => {
                     <strong className="text-light">Pulmonary</strong>
                   </p>
                   <div>
-                    <a className="text-light anchor  mx-2" href="/learn">
+                    <a className="text-light anchor f-right  mx-2" href="/learn">
                       LEARN MORE<strong className="mx-3">&#62;</strong>
                     </a>
                   </div>

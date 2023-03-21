@@ -3,7 +3,6 @@ import React from 'react';
 
 const Home = () => {
     return(
-
         <>
         <div className='container'>
              <div className='row'>
@@ -14,11 +13,13 @@ const Home = () => {
                     <div className="mt-5 py-5">
                       <strong>Wecome to MediCare+ Clinic</strong>
                       <h1 className="py-2">Best Speacaliest</h1>
+
                       <p>
                         We are on the leading edge of cancer care. Providing the
                         full continuum of cancer treatments and supportive care
                         services in a single convenient location.
                       </p>
+                      
                       <div className="d-flex justify-content-between">
                           <div className="rounded-5">
                           <button style={{background:"#007FF4"}} className=" border border-transparent px-5 py-2 text-light rounded-5">Make a Appointment</button>
@@ -47,9 +48,11 @@ const Home = () => {
                 </div>
               </div>
             </section>
-             </div>
+          </div>
         </div>
         </>
     )
 }
+
 export default Home
+

@@ -1,3 +1,4 @@
+
 import React from "react";
 import "../assets/css/Produt.css";
 
@@ -8,7 +9,7 @@ const Product = () => {
         <div
           className="col-lg-12 col-md-12 col-sm-12"
           style={{ background: "#0C0C0C" }}
-        >
+         >
           <div className="class">
             <h4 style={{ color: "#E5DFD9" }} className="class1 py-2">
               T A N N T R I M
@@ -77,6 +78,7 @@ const Product = () => {
                 />
                 <h6 className=""> Messenger Bags</h6>
                </div>
+
                 <div> 
                 <img
                   className="text-light iconimg px-4"
@@ -107,13 +109,13 @@ const Product = () => {
             <div className="px-4"> 
             <div className="text-center row px-4">
              <div className="card " style={{ width: "16rem", background:'#0C0C0C' }}>
-             <p className="icontop text-end"><i className="px-3 fa-regular fa-bookmark"></i></p>
+             <p className="icontop text-end iconmap"><i className="px-3 fa-regular fa-bookmark "></i></p>
                 <img src={require("../assets/images/Brown Metro.png")} className="card-img-top" alt="" />
-                <div className="card-body">
-                  <div className="card-text1">
-                  <h6>The Brown Metro Movers</h6>
-                  <div className="px-2">
-                  <p className="curricon "><i className="fa-solid fa-indian-rupee-sign currency"></i><strong className="px-1">4899</strong><del className="dele"> 8999</del></p> <p className="font px-1">(50% off)</p>
+                <div className="card-body1"> 
+                  <div className="card-text1"> 
+                  <h6>The Brown Metro Movers</h6>   
+                  <div className="px-2">   
+                  <p className="curricon ">   <i className="fa-solid fa-indian-rupee-sign currency"></i><strong className="px-1">4899</strong><del className="dele"> 8999</del></p> <p className="font px-1">(50% off)</p>
                   <img className="card-icon" src={require("../assets/images/Carry Bag.png")} alt="" />
                    </div>
                   </div>
@@ -123,7 +125,7 @@ const Product = () => {
               <div className="card" style={{ width: "16rem", background:'#0C0C0C' }}>
                <p className="icontop text-end"><i className="px-3 fa-regular fa-bookmark"></i></p>
                 <img src={require("../assets/images/Black Metro.png")} className="card-img-top" alt="..." />
-                 <div className="card-body">
+                 <div className="card-body1">
                   <div className="card-text1">
                   <h6>The Metro Movers Black</h6>
                   <div className="px-2">
@@ -137,21 +139,21 @@ const Product = () => {
               <div className="card" style={{ width: "16rem", background:'#0C0C0C' }}>
               <p className="icontop text-end"><i className="px-3 fa-regular fa-bookmark"></i></p>
                 <img src={require("../assets/images/Metro Mover.png")} className="card-img-top" alt="..." />
-                <div className="card-body">
-                  <div className="card-text1">
-                  <h6>The Metro Movers Black</h6>
-                  <div className="px-2">
-                  <p className="curricon "><i className="fa-solid fa-indian-rupee-sign currency"></i><strong className="px-1">4899</strong><del className="dele"> 8999</del></p> <p className="font px-1">(50% off)</p>
+                <div className="card-body1"> 
+                  <div className="card-text1"> 
+                  <h6>The Metro Movers Black</h6> 
+                  <div className="px-2"> 
+                  <p className="curricon "> <i className="fa-solid fa-indian-rupee-sign currency"> </i><strong className="px-1">4899</strong><del className="dele"> 8999</del></p> <p className="font px-1">(50% off)</p>
                   <img className="card-icon" src={require("../assets/images/Carry Bag.png")} alt="" />
-                   </div>
-                  </div>
+                   </div> 
+                  </div> 
                 </div>
               </div>
 
               <div className="card" style={{ width: "16rem", background:'#0C0C0C' }}>
               <p className="icontop text-end"><i className="px-3 fa-regular fa-bookmark"></i></p>
                 <img src={require("../assets/images/Gray Metro.png")} className="card-img-top" alt="..." />
-                <div className="card-body">
+                <div className="card-body1">
                   <div className="card-text1">
                   <h6>The Metro Movers Black</h6>
                   <div className="px-2">
@@ -180,7 +182,7 @@ const Product = () => {
               <div className="card py-2" style={{ width: "16rem", background:'#0C0C0C' }}>
               <p className="icontop text-end"><i className="px-3 fa-regular fa-bookmark"></i></p>
                 <img src={require("../assets/images/Black Metro.png")} className="card-img-top" alt="..." />
-                <div className="card-body">
+                <div className="card-body1">
                   <div className="card-text1">
                   <h6>The Metro Movers Black</h6>
                   <div className="px-2">
@@ -194,7 +196,7 @@ const Product = () => {
               <div className="card py-2" style={{ width: "16rem", background:'#0C0C0C' }}>
               <p className="icontop text-end"><i className="px-3 fa-regular fa-bookmark"></i></p>
                 <img src={require("../assets/images/Metro Mover.png")} className="card-img-top" alt="..." />
-                <div className="card-body">
+                <div className="card-body1">
                   <div className="card-text1">
                   <h6>The Metro Movers Black</h6>
                   <div className="px-2">
@@ -208,7 +210,7 @@ const Product = () => {
               <div className="card cardrnd py-2" style={{ width: "16rem", background:'#0C0C0C' }}>
               <p className="icontop text-end"><i className="px-3 fa-regular fa-bookmark"></i></p>
                 <img src={require("../assets/images/Gray Metro.png")} className="card-img-top" alt="..." />
-                <div className="card-body">
+                <div className="card-body1">
                   <div className="card-text1">
                   <h6>The Metro Movers Black</h6>
                   <div className="px-2">
@@ -217,7 +219,7 @@ const Product = () => {
                    </div>
                   </div>
                 </div>
-              </div>
+               </div>
             </div>
             </div>
           </div>
