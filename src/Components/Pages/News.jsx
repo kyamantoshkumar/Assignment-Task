@@ -38,7 +38,7 @@ const Speaciliest = () => {
                   </div>
                 </div>
               </div>
-                  
+                        
               <div className="col">  
                 <div className="card shadow" style={{width:'15rem', }}>  
                 <h4 className="shape" > </h4>
@@ -49,7 +49,7 @@ const Speaciliest = () => {
                 </div>
               </div>
                   
-              <div className="col">
+              <div className="col"> 
                 <div className="card shadow" style={{width:'15rem', }}> 
                   <h4 className="shape" > </h4>  
                   <div className="card-body" style={{width:'auto', height:'5rem'}}>   
@@ -58,7 +58,6 @@ const Speaciliest = () => {
                   </div>
                 </div>
               </div>   
-                  
                   
             </div>
             </div>
