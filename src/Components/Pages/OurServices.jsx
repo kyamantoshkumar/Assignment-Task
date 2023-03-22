@@ -83,7 +83,7 @@ const OurServices = () => {
                   src={require("../../assets/images/Prediatrics.png")}
                   className="card-img-top cardimg"
                   alt="images.png"
-                />
+                  /> 
                 <p className="pragraph text-primary">
                   <strong>Prediatrics</strong>
                 </p>
