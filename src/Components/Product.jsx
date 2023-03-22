@@ -29,7 +29,7 @@ const Product = () => {
             </div>
             <hr className="hrline bg-light" />
             <div className="py-4" style={{color: "#E5DFD9"}}>
-              <div className="text-center d-flex">
+              <div className="select-direction">
                  <div>
                  <img
                   className="text-light iconimg px-4"
