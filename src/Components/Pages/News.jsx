@@ -5,61 +5,62 @@ const Speaciliest = () => {
     <>
       <div className="container-fluid">
         <div className="row">
+          <div className="box-size"> </div>
           <div className="col-sm-12 col-md-6 col-lg-12 px-5">
             <div className="text-center justify-content-center">
               <h2>We Have The Best Specialist</h2>
+
               <p>
                 We have a wide experience in experience design and strategy,
-                <br /> with locally-rooted knowledge.
-              </p>
+                <br/>with locally-rooted knowledge.
+              </p> 
+               
             </div>
-            <div className="row">
-
-            <div className="row rows-cols-md-3 g-2 justify-content-center">
-              <div className="cols">
-                <div className="card rounded" style={{width:'15rem', }}>
-                  <h4 className="shape " style={{height:'18rem', background: "#AED3E2"}}> </h4>
+            <div className="row px-5">
+            <div className="row row-col-md-3 g-2 justify-content-around px-5">
+              
+              <div className="col">
+                <div className="card rounded shadow" style={{width:'15rem', }}>
+                  <h4 className="shape" > </h4>
                   <div className="card-body" style={{width:'auto', height:'5rem'}} >
                   <h5 className="card-title">Dr. Awaatif Al</h5>
                   <p className="card-text">Dental Care</p>
                   </div>
                 </div>
               </div>
-
+              
               <div className="col">
-                <div className="card rounded" style={{width:'15rem' }}>
-                <h4 className="shape " style={{height:'18rem', background: "#AED3E2"}}> </h4>
+                <div className="card rounded shadow" style={{width:'15rem' }}>
+                <h4 className="shape" > </h4>
                   <div className="card-body" style={{width:'auto', height:'5rem'}}>
                   <h5 className="card-title">Dr. Sukhmeet Gorae</h5>
                   <p className="card-text">Neurological</p>
                   </div>
                 </div>
               </div>
-
-              <div className="col">
-                <div className="card" style={{width:'15rem', }}>
-                <h4 className="shape " style={{height:'18rem', background: "#AED3E2"}}> </h4>
+                  
+              <div className="col">  
+                <div className="card shadow" style={{width:'15rem', }}>  
+                <h4 className="shape" > </h4>
                   <div className="card-body" style={{width:'auto', height:'5rem'}}>
                   <h5 className="card-title">Dr. Filipa Gaspar</h5>
                   <p className="card-text">Cardiology</p>
                   </div>
                 </div>
               </div>
-
+                  
               <div className="col">
-                <div className="card rounded" style={{width:'15rem', }}>
-                  <h4 className="shape" style={{height:'18rem', background: "#AED3E2"}}> </h4>
-                  <div className="card-body" style={{width:'auto', height:'5rem'}}>
-                  <h5 className="card-title">Dr. Siri Jakobsson</h5>
-                  <p className="card-text">Prediatrics</p>
+                <div className="card shadow" style={{width:'15rem', }}> 
+                  <h4 className="shape" > </h4>  
+                  <div className="card-body" style={{width:'auto', height:'5rem'}}>   
+                  <h5 className="card-title">Dr. Siri Jakobsson</h5>   
+                  <p className="card-text">Prediatrics</p>   
                   </div>
                 </div>
-              </div>
-
+              </div>   
+                  
+                  
             </div>
-
-              <div className="col-lg-12 col-md-auto col-sm-12 px-5 py-3">
-              </div>
             </div>
             <div className="col-lg-12 col-md-6 col-sm-12 px-5 mt-5">
               <div>
@@ -69,8 +70,8 @@ const Speaciliest = () => {
                 <div className="row justify-content-around">
                   <div className="col-md-6 col-sm-12">
                   <h2 className=" bg-primary logo1 text-light rounded-5 text-center py-2 ">
-                          “
-                        </h2>
+                  “
+                  </h2>  
                     <div className="shadow bg-light rounded">
                       <p className="set logo1">
                        
@@ -96,7 +97,6 @@ const Speaciliest = () => {
                   </div>
 
                   {/* New */}
-                  
                   <div className=" col-md-6 col-sm-12">
                     <p className="NewLogo1 text-center float-left logo1"> 
                     <h2 className="bg-primary text-light rounded-5  py-2 ">
@@ -172,7 +172,9 @@ const Speaciliest = () => {
                  <h5 className="navbar-brand" href="/">
                   <strong style={{ color: "#0073FF" }}>Medi</strong>
                   <strong style={{ color: "#FF9F6A" }}>Care+</strong>
-                </h5>
+
+                  </h5> 
+
                   <div className="setdata junstify-content-end text-end"> 
                     <span className="px-2 text-primary">Home</span>
                     <span className="px-2 text-primary">About</span>
@@ -190,3 +192,4 @@ const Speaciliest = () => {
 };
 
 export default Speaciliest;
+
