@@ -16,7 +16,7 @@
  .direction{
     flex-direction: row !important;
     display: flex !important;
- } 
+ }
 .card-icon{
     width: 2vw;
     height: 5vh;
@@ -34,7 +34,7 @@
 }
 .curricon{
     float: left !important;
-    
+
 }
 .dele{
     font-size: 12px !important;
@@ -54,19 +54,32 @@
   border-bottom-right-radius: 50% !important;
 }
 
-@media (min-width: 768px) { 
+.select-direction{
+    display: flex;
+}
+
+.icontop{
+    font-size: 20px !important;
+    position: absolute !important;
+    float: right !important;
+    margin-left: 11.6rem !important;
+  }
+
+
+
+@media (min-width: 768px) {
 
     .iconimg{
         width: 9vw;
         height: 13vh;
       }
-    
+
      .direction{
         flex-direction: row !important;
-        display: flex !important;
-        
-     } 
-     
+        /* display: flex !important; */
+
+     }
+
     .icontop{
         font-size: 20px !important;
         position: absolute !important;
@@ -81,15 +94,19 @@
 
  }
 
-@media (min-width: 576px) { 
-  
+@media (min-width: 576px) {
+
     .icontop{
         font-size: 20px !important;
         position: absolute !important;
         float: right !important;
         margin-left: 11.6rem !important;
       }
-      
+
+      .select-direction{
+        display: flex;
+    }
+
  }
 
 .icontop{
